@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="resources.Listeners"></listener>
+        <listener class-name="resources.ExtentReporterNG"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/Deep.Rathod/Documents/AppiumFramework">
+        <classes>
+            <class name="org.example.ECommerceTest">
+                <methods>
+                    <include name="totalValidation"/>
+                </methods>
+            </class>
+           <class name="org.example.ApiDemoTest"></class>
+
+        </classes>
+    </test>
+</suite>

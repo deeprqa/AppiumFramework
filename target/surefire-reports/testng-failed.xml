@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="resources.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="C:/Users/Deep.Rathod/Documents/AppiumFramework(failed)">
+    <classes>
+      <class name="org.example.ApiDemoTest">
+        <methods>
+          <include name="apiDemoAppTest"/>
+          <include name="stopServer"/>
+          <include name="startServer"/>
+        </methods>
+      </class> <!-- org.example.ApiDemoTest -->
+    </classes>
+  </test> <!-- C:/Users/Deep.Rathod/Documents/AppiumFramework(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
